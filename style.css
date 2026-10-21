@@ -64,7 +64,7 @@ body{background:#080907}
 .button.gold:hover:before{left:130%}
 .gallery-card{transform:perspective(1000px) translateZ(0);backface-visibility:hidden}
 .gallery-card:hover{transform:perspective(1000px) rotateY(-1.2deg) rotateX(1deg) translateY(-7px);box-shadow:0 30px 60px #0008,0 0 0 1px #d2b16c55}
-.gallery-overlay{backdrop-filter:linear-gradient(transparent, #000)}
+.gallery-overlay{isolation:isolate}
 .service{transform-style:preserve-3d}
 .service:hover .service-icon{transform:translateZ(12px) scale(1.08);transition:transform .3s}
 .film-card{transform:perspective(1000px) translateZ(0)}
